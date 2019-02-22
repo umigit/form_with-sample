@@ -4,5 +4,3 @@
       = f.text_field :keyword, required: true, class: "search__form__input"
       = f.submit "検索"
   .result
-    - if @students.present?
-      =render @students
